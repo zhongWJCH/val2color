@@ -1,0 +1,30 @@
+{
+  "name": "val2color",
+  "version": "0.0.1",
+  "description": "calc value to color",
+  "main": "index.ts",
+  "scripts": {
+    "build": "node build/esbuild.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongWJCH/val2color.git"
+  },
+  "keywords": [
+    "typescript",
+    "color",
+    "value"
+  ],
+  "author": "zhongwj",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zhongWJCH/val2color/issues"
+  },
+  "homepage": "https://github.com/zhongWJCH/val2color#readme",
+  "dependencies": {
+    "esbuild": "^0.19.10",
+    "typescript": "^5.3.3",
+    "zrender": "^5.4.4"
+  }
+}
